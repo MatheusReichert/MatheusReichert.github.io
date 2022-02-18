@@ -5,43 +5,30 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link href="./dist/output.css" rel="stylesheet" />
   </head>
-  <body>
-    <header
-      class="sticky top-0 pt-2 text-white bg-gradient-to-r from-cyan-700 to-blue-700"
-    >
-      <h1 class="font-sans text-4xl font-bold text-center">
-        Matheus Ernan Reichert
-      </h1>
-      <h2 class="text-2xl text-center pt-2">Desenvolvedor</h2>
-
-      <ul class="flex flex-row p-3 justify-center">
-        <a
-          href="#hab"
-          class="text-base sm:text-sm md:text-md lg:text-lg xl:text-2lg overflow-hidden uppercase hover:text-black duration-700 hover:bg-white hover:opacity-70 text-center p-3 w-1/4 border-2 border-white rounded-full bg-opacity-0"
-        >
-          <li>Habilidades</li>
-        </a>
-        <a
-          href="#proj"
-          class="text-base sm:text-sm md:text-md lg:text-lg xl:text-2lg overflow-hidden uppercase hover:text-black duration-700 hover:bg-white hover:opacity-70 text-center p-3 w-1/4 border-2 border-white rounded-full bg-opacity-0"
-        >
-          <li>Projetos</li>
-        </a>
-        <a
-          href="#cont"
-          class="text-base sm:text-sm md:text-md lg:text-lg xl:text-2lg overflow-hidden uppercase hover:text-black duration-700 hover:bg-white hover:opacity-70 text-center p-3 w-1/4 border-2 border-white rounded-full bg-opacity-0"
-        >
-          <li>Contatos</li>
-        </a>
-        <a
-          href="#"
-          class="text-base sm:text-sm md:text-md lg:text-lg xl:text-2lg overflow-hidden uppercase hover:text-black duration-700 hover:bg-white hover:opacity-70 text-center p-3 w-1/4 border-2 border-white rounded-full bg-opacity-0"
-        >
-          <li>Currículos</li>
-        </a>
+  <body class="flex flex-col min-h-screen text-white bg-gradient-to-r from-cyan-700 to-blue-700 ">
+    <header>
+    <nav class=" flex items-center justify-between flex-wrap  p-6 border-b-2 border-white border-opacity-20 text-center">
+      <div class="basis-1/3 text-xl text-left " >
+        <h1>Matheus Ernan Reichert</h1>
+        <h2 class="text-">Desenvolvedor</h2>
+      </div>
+      <ul class="flex flex-row basis-1/3 gap-6 ">
+        <li class="basis-1/4 border-t-2 border-b-2 border-white border-opacity-20">
+          Habilidades
+        </li>
+        <li class="basis-1/4 border-t-2 border-b-2 border-white border-opacity-20">
+          Projetos
+        </li>
+        <li class="basis-1/4 border-t-2 border-b-2 border-white border-opacity-20">
+          Contatos
+        </li>
+        <li class="basis-1/4 border-t-2 border-b-2 border-white border-opacity-20">
+          Currículos
+        </li>
       </ul>
+    </nav>
     </header>
-    <main class="">
+    <main class="flex-auto m-auto">
       <section id="hab">
         <h2>Habilidades</h2>
         <p></p>
@@ -56,9 +43,9 @@
       </section>
     </main>
     <footer
-      class="fixed inset-x-0 bottom-0 text-white bg-gradient-to-r from-cyan-700 to-blue-700 text-center p-5"
+      class="m-auto"
     >
-      &copy; Matheus Ernan Reichert
+      <p class="border-t-2 border-white border-opacity-20"> &copy; Matheus Ernan Reichert</p>
     </footer>
   </body>
 </html>
