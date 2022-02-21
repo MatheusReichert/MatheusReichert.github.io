@@ -5,9 +5,10 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link href="./dist/output.css" rel="stylesheet" />
+    <link href="./fontawesome-6.0.0/css/all.min.css" rel="stylesheet" />
   </head>
   <body
-    class="flex flex-col min-h-screen   text-white bg-gradient-to-r from-emerald-700 to-blue-700 bg-cover"
+    class="flex flex-col min-h-screen   text-blue-100 bg-gradient-to-r from-emerald-700 to-blue-700 bg-cover"
     style="background-image: url(./background.jpg)"
   >
     <header
@@ -20,14 +21,14 @@
       >
         <div class="basis-1/3 text-xl text-left">
           <h1>Matheus Ernan Reichert</h1>
-          <h2 class="text-">Desenvolvedor</h2>
+          <h2 class="text-"> Desenvolvedor <i class="fa-solid fa-code"></i></h2>
         </div>
         <ul class="flex flex-row basis-1/3 gap-6">
           <a
             href="#hab"
             class="basis-1/4 border-t-2 border-b-2 border-white border-opacity-20 hover:border-blue-500 hover:border-opacity-100 hover:text-blue-500 hover:opacity-100 hover:duration-700"
           >
-            <li>Habilidades</li>
+            <li>Conhecimentos</li>
           </a>
           <a
             href="#proj"
@@ -58,27 +59,30 @@
         class="border-white border-opacity-20 w-11/12 mt-4 backdrop-blur-3xl border-x-2 "
       >
         <div class="p-10 flex flex-col items-center">
-          <h1 class="" id="proj">Um pouco sobre mim....</h1>
+          <h1 class="" id="proj"><i class="px-2 fa-solid fa-pen"></i>Um pouco sobre mim....</h1>
           <p class="w-2/3">
             Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aliquam
             eaque porro blanditiis quas quasi, inventore fugiat laboriosam
             molestiae minus similique voluptates eligendi harum? Quas sint quam
             voluptatum voluptas expedita amet!
           </p>
+          
+
         </div>
       </section>
 
       <section
         class="flex flex-col text-center py-4 backdrop-blur-3xl border-x-2 border-white border-opacity-20 w-11/12 mt-4"
       >
-        <h1 class="uppercase p-1" id="hab">Habilidades</h1>
+    
+        <h1 class="uppercase p-1" id="hab"> <i class="px-2 fa-solid fa-brain"></i> Conhecimentos</h1>
         <div class="flex justify-around">
           <div class="w-1/3">
             <h1 class="bg-blue-200 bg-opacity-30">Front</h1>
             <div class="flex flex-col items-center gap-4">
-              <p>HTML5</p>
-              <p>CSS3 (Tailwind)</p>
-              <p>Javascript</p>
+              <p>HTML <i class="fa-brands fa-html5 px-2 "></i></p>
+              <p> CSS (Tailwind) <i class="fa-brands fa-css3-alt px-2 inline-block"></i>   </p>
+              <p>Javascript <i class="fa-brands fa-js-square px-2 inline-block"></i></p>
             </div>
           </div>
           <div class="w-1/3  border-x border-opacity-90 ">
@@ -86,15 +90,15 @@
               Back
             </h1>
             <div class="flex flex-col justify-around gap-4 mt-6">
-              <p>Java (Spring &amp; JSP)</p>
-              <p>Node</p>
+              <p>Java (Spring &amp; JSP) <i class="fa-brands fa-java px-2 inline-block"></i> </p>
+              <p>Node <i class="fa-brands fa-node-js px-2 inline-block"></i></p>
             </div>
           </div>
           <div class="w-1/3">
             <h1 class="bg-blue-200 bg-opacity-30">Úteis</h1>
-            <div class="flex flex-col items-center gap-4 mt-6">
-              <p>Git</p>
-              <p>Linux</p>
+            <div class="flex flex-col items-center gap-4 mt-6 ">
+              <p>Git <i class="fa-brands fa-git-alt px-2 inline-block"></i></p>
+              <p>Linux <i class="fa-brands fa-linux px-2 inline-block"></i> </p>
               <p></p>
             </div>
           </div>
@@ -103,7 +107,7 @@
       <section
         class="flex flex-col text-center pb-5 pt-5 backdrop-blur-3xl border-x-2 border-white border-opacity-20 w-11/12 mt-4"
       >
-        <h1 class="" id="proj">Projetos</h1>
+        <h1 class="" id="proj"><i class="px-2 fa-solid fa-wrench"></i>Projetos</h1>
         <div class="flex justify-around"></div>
       </section>
       <section
@@ -112,9 +116,9 @@
         <h1 class="" id="cont">Contatos:</h1>
         <div class="flex justify-around">
           <address class="not-italic">
-            Email: matheus_ernan@outlook.com
+            <i class="fa-solid fa-envelope px-2"></i> Email: matheus_ernan@outlook.com
             <br />
-            LinkedIn:
+            <i class="fa-brands fa-linkedin px-2"></i>LinkedIn:
             <a
               href="https://www.linkedin.com/in/matheus-ernan-reichert-6a019520a/"
               >Matheus Ernan Reichert</a
