@@ -7,18 +7,18 @@
     <title>Matheus Ernan Reichert</title>
   </head>
   <body
-    class="flex flex-col min-h-screen text-blue-100 bg-gradient-to-r from-emerald-700 to-blue-700 bg-cover"
+    class="flex min-h-screen flex-col bg-gradient-to-r from-emerald-700 to-blue-700 bg-cover text-blue-100"
     style="background-image: url(./background.jpg)"
   >
     <header class="sticky top-0 z-50">
       <nav
-        class="backdrop-blur-3xl flex items-center justify-between flex-wrap p-4 border-b-2 border-white border-opacity-20 text-center"
+        class="flex flex-wrap items-center justify-around border-b-2 border-white border-opacity-20 p-4 text-center backdrop-blur-3xl"
       >
-        <div class="basis-1/3 text-xl flex-grow text-left">
+        <div class="flex-shrink flex-grow basis-1/3 text-left text-xl">
           <h1>Matheus Ernan Reichert</h1>
           <h2 class="text-">Desenvolvedor <i class="fa-solid fa-code"></i></h2>
         </div>
-        <ul class="select-none flex flex-row basis-1/3 gap-6">
+        <ul class="flex basis-1/3 select-none flex-row gap-6">
           <a
             href="#hab"
             class="basis-1/4 border-t-2 border-b-2 border-white border-opacity-20 hover:border-blue-500 hover:border-opacity-100 hover:text-blue-500 hover:opacity-100 hover:duration-700"
@@ -46,58 +46,62 @@
         </ul>
       </nav>
     </header>
-    <main class="flex flex-grow flex-wrap place-content-center">
+    <main class="flex h-screen flex-wrap place-content-center">
       <section
-        class="border-white border-opacity-20 w-11/12 mt-4 backdrop-blur-3xl border-x-2"
+        class="mt-4 w-11/12 border-x-2 border-white border-opacity-20 backdrop-blur-3xl"
       >
-        <div class="p-10 flex flex-col items-center">
+        <div class="flex flex-col items-center p-10">
           <h1 class="">
-            <i class="px-2 fa-solid fa-pen"></i>Um pouco sobre mim....
+            <i class="fa-solid fa-pen px-2"></i>Um pouco sobre mim....
           </h1>
           <p class="w-2/3 text-justify indent-10">
-            Atualmente sou estudante de Engenharia de Computação no Instituto Federal Catarinense,
-            sou vidrado em aprender novas tecnologias, atualmente estou estudando assuntos voltados para o desenvolvimetno web, 
-            abaixo mostro as tecnologias que já conheço além dps crud's e projetos já feitos com algumas delas.
+            Atualmente sou estudante de Engenharia de Computação no Instituto
+            Federal Catarinense, sou vidrado em aprender novas tecnologias,
+            atualmente estou estudando assuntos voltados para o desenvolvimetno
+            web, abaixo mostro as tecnologias que já conheço além dps crud's e
+            projetos já feitos com algumas delas.
           </p>
         </div>
       </section>
 
       <section
-        class="flex flex-col w-11/12 text-center py-4 backdrop-blur-3xl border-x-2 border-white border-opacity-20  mt-4"
+        class="mt-4 flex w-11/12 flex-col border-x-2 border-white border-opacity-20 py-4 text-center backdrop-blur-3xl"
       >
-        <h1 class="uppercase p-1" id="hab">
-          <i class="px-2 fa-solid fa-brain"></i> Conhecimentos
+        <h1 class="p-1 uppercase" id="hab">
+          <i class="fa-solid fa-brain px-2"></i> Conhecimentos
         </h1>
-        <div class="flex  m-4">
-          <div class="flex-grow ">
+        <div class="m-4 flex">
+          <div class="basis-1/3">
             <h1 class="bg-blue-200 bg-opacity-30">Front</h1>
-            <div class="flex flex-col justify-evenly h-full ">
+            <div class="flex h-full flex-col justify-evenly">
               <p>HTML <i class="fa-brands fa-html5 px-2"></i></p>
               <p>
                 CSS (Tailwind)
-                <i class="fa-brands fa-css3-alt px-2 "></i>
+                <i class="fa-brands fa-css3-alt px-2"></i>
               </p>
               <p>
                 Javascript
-                <i class="fa-brands fa-js-square px-2 "></i>
+                <i class="fa-brands fa-js-square px-2"></i>
               </p>
             </div>
           </div>
-          <div class="flex-grow">
+          <div class="basis-1/3">
             <h1 class="bg-blue-200 bg-opacity-30">Back</h1>
-            <div class="flex flex-col justify-evenly h-full border-x  border-opacity-90">
+            <div
+              class="flex h-full flex-col justify-evenly border-x border-opacity-90"
+            >
               <p>
                 Java (Spring &amp; JSP)
-                <i class="fa-brands fa-java px-2 block"></i>
+                <i class="fa-brands fa-java block px-2"></i>
               </p>
-              <p>Node <i class="fa-brands fa-node-js px-2 block"></i></p>
+              <p>Node <i class="fa-brands fa-node-js block px-2"></i></p>
             </div>
           </div>
-          <div class="flex-grow">
+          <div class="basis-1/3">
             <h1 class="bg-blue-200 bg-opacity-30">Úteis</h1>
-            <div class="flex flex-col justify-evenly h-full">
+            <div class="flex h-full flex-col justify-evenly">
               <p>SQL <i class="fa-solid fa-database"></i></p>
-              <p>Git <i class="fa-brands fa-git-alt px-2 "></i></p>
+              <p>Git <i class="fa-brands fa-git-alt px-2"></i></p>
               <p>Linux <i class="fa-brands fa-linux px-2"></i></p>
               <p></p>
             </div>
@@ -105,22 +109,21 @@
         </div>
       </section>
       <section
-        class="flex flex-col text-center pb-5 pt-5 backdrop-blur-3xl border-x-2 border-white border-opacity-20 w-11/12 mt-4"
+        class="mt-4 flex w-11/12 flex-col border-x-2 border-white border-opacity-20 pb-5 pt-5 text-center backdrop-blur-3xl"
       >
         <h1 class="" id="proj">
-          <i class="px-2 fa-solid fa-wrench"></i>Projetos
+          <i class="fa-solid fa-wrench px-2"></i>Projetos
         </h1>
-        <div class="flex justify-center flex-wrap">
-          <div class="m-5 p-5 border-8 border-opacity-20 border-white">
+        <div class="flex flex-wrap justify-center">
+          <div class="m-5 border-8 border-white border-opacity-20 p-5">
             <a href="https://github.com/MatheusReichert/crud-spring-postgre">
               <h1>Crud API SpringBoot + PostgreSQL</h1>
               <h2>Controle de vaga de estacionamento (Parking Spot Control)</h2>
-              <div class="flex justify-center gap-5 text-4xl p-2">
+              <div class="flex justify-center gap-5 p-2 text-4xl">
                 <i class="fa-brands fa-java"></i>
-                
+
                 <i class="fa-solid fa-database"></i>
               </div>
-              
             </a>
           </div>
           <div class="">
@@ -133,7 +136,7 @@
         <div class="flex justify-around"></div>
       </section>
       <section
-        class="flex flex-col text-center py-5 backdrop-blur-3xl border-x-2 border-white border-opacity-20 w-11/12 mt-4"
+        class="mt-4 flex w-11/12 flex-col border-x-2 border-white border-opacity-20 py-5 text-center backdrop-blur-3xl"
       >
         <h1 class="" id="cont">Contatos:</h1>
         <div class="flex justify-around">
@@ -142,8 +145,7 @@
             matheus_ernan@outlook.com
             <br />
             <i class="fa-brands fa-linkedin px-2"></i>LinkedIn:
-            <a
-              href="http://www.linkedin.com/in/matheus-ernan-reichert"
+            <a href="http://www.linkedin.com/in/matheus-ernan-reichert"
               >Matheus Ernan Reichert</a
             >
           </address>
@@ -151,7 +153,7 @@
       </section>
     </main>
     <footer
-      class="sticky bottom-0 text-center py-5 mt-5 backdrop-blur-3xl border-t-2 border-white border-opacity-20"
+      class="sticky bottom-0 mt-5 border-t-2 border-white border-opacity-20 py-5 text-center backdrop-blur-3xl"
     >
       <p class="">Matheus Ernan Reichert &copy; 2022</p>
       <aside></aside>
